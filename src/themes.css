@@ -1,0 +1,23 @@
+.themeOne, :root {
+    --themeColor: rgb(238, 118, 105);
+}
+
+.themeTwo {
+    --themeColor: rgb(0, 255, 242);
+}
+
+.themeThree {
+    --themeColor: rgb(200, 117, 255);
+}
+
+.fontOne, :root {
+    --themeFont: 'Urbanist', sans-serif;
+}
+
+.fontTwo {
+    --themeFont: 'Work Sans', sans-serif;
+}
+
+.fontThree {
+    --themeFont: 'Lora', serif;
+}

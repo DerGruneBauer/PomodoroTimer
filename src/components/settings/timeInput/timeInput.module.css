@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.title {
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    letter-spacing: .7px;
+}
+
+select {
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(243, 243, 243);
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+
+   .container {
+       flex-direction: column;
+   }
+  
+   .title {
+    margin-bottom: 10px;
+   }
+
+  }

@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.circleBorder {
+    border-radius: 50%;
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    background: linear-gradient(to bottom right, #10131d,#393f66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 15px 50px 25px rgba(16,19,29,0.82), -10px -10px 50px 25px rgba(57,63,102,0.82); 
+}
+
+.innerCircle {
+    background-color: #181c2a;
+    height: 0;
+    width: 90%;
+    padding-bottom: 90%;
+    border-radius: 50%;
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timerCircle {
+    border: solid 8px  var(--themeColor);;
+    height: 0;
+    width: 93%;
+    padding-bottom: 88%;
+    border-radius: 50%;
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    color: rgb(230, 234, 255);
+    margin-top: 100%;
+    font-size: 78px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-left: 3px;
+    position: relative;
+    top: 10px;
+}
+
+.pauseButton {
+    color: rgb(230, 234, 255);
+    font-size: 18px;
+    letter-spacing: 15px;
+    padding-left: 15px;
+    position: relative;
+    top: 25px;
+}
+
+.timerCircle:hover, .pauseButton:hover, .time:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 400px;
+    }
+    .time {
+        font-size: 98px;
+    }
+}
